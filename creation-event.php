@@ -114,11 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2>Créer un Nouvel fête</h2>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" enctype="multipart/form-data">
             <div>
-<<<<<<< HEAD
-                <label>Titre du le fête</label>
-=======
-                <label>Titre de l'événement</label>
->>>>>>> c8fe5fe8a0ec12664fb97b06d4dcfc934f6a5169
+                <label>Titre de la fête</label>
                 <input type="text" name="title" maxlength="50" value="<?php echo $title; ?>">
                 <span><?php echo $title_err; ?></span>
             </div>
@@ -128,11 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <span><?php echo $description_err; ?></span>
             </div>
             <div>
-<<<<<<< HEAD
-                <label>Date du le fête</label>
-=======
-                <label>Date de l'événement</label>
->>>>>>> c8fe5fe8a0ec12664fb97b06d4dcfc934f6a5169
+                <label>Date de la fête</label>
                 <input type="datetime-local" name="event_date" value="<?php echo $event_date; ?>">
                 <span><?php echo $event_date_err; ?></span>
             </div>
