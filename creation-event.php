@@ -124,7 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <span><?php echo $description_err; ?></span>
             </div>
             <div>
-                <label>Date du l'événement</label>
+                <label>Date de l'événement</label>
                 <input type="datetime-local" name="event_date" value="<?php echo $event_date; ?>">
                 <span><?php echo $event_date_err; ?></span>
             </div>
