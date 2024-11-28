@@ -30,3 +30,7 @@
 .event p{
     margin: 0px 20px;
 }
+
+.custom_button_delete:hover {
+    color: orange;
+}
